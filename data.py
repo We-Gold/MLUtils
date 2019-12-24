@@ -5,7 +5,6 @@ from keras.preprocessing.image import ImageDataGenerator
 import numpy as np
 import os
 
-
 # Data generators, total images in folders, image to tensor
 class Data:
     def get_data_generators(self,directory,target_image_size,batch_size,class_mode,zoom=0.2,horizontal_flip=True):
